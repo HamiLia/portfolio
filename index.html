@@ -142,80 +142,111 @@
   <section id="work" class="section">
     <h2>Academic Work Experience</h2>
 
-    <!-- Work Samples -->
-    <div class="card">
-      <h3>Academic Work Samples</h3>
-
-      <div class="work-sample">
-        <h4>Project 1: Real-Time Chat Application</h4>
-        <p class="tech-tag">Technologies: Node.js, Express.js, Socket.io, MongoDB, HTML/CSS, Bootstrap</p>
-        <p>
-          A real-time chat application that supports both group chat rooms and private one-on-one messaging.
-          Users can sign up, log in, join different chat rooms, and send private messages to other users.
-          Messages are saved in MongoDB so chat history is not lost. I learned how to use WebSockets
-          for real-time communication and how to structure a Node.js backend with multiple features.
-        </p>
+    <!-- Featured Project: Today's Sky -->
+    <div class="featured-project">
+      <span class="featured-label">Featured Project — Personal Work</span>
+      <h3>Today's Sky</h3>
+      <p class="featured-subtitle">A diary of the sky — Android App</p>
+      <div class="featured-tags">
+        <span>Kotlin</span>
+        <span>Jetpack Compose</span>
+        <span>Room Database</span>
+        <span>WorkManager</span>
+        <span>Coil</span>
+        <span>DataStore</span>
       </div>
-
-      <div class="work-sample">
-        <h4>Project 2: Restaurant Search App</h4>
-        <p class="tech-tag">Technologies: Kotlin, Jetpack Compose, Google Maps API, Material 3</p>
-        <p>
-          An Android application for searching and viewing restaurant information. Users can search by name,
-          filter by food tags, and see restaurant locations on Google Maps. The app shows ratings, reviews,
-          and details about each restaurant. This was a group project where I learned how to work with
-          Google Maps API and build modern Android UI with Jetpack Compose.
-        </p>
-      </div>
-
-      <div class="work-sample">
-        <h4>Project 3: Today's Sky (Personal Project)</h4>
-        <p class="tech-tag">Technologies: Kotlin, Jetpack Compose, Room Database, WorkManager</p>
-        <p>
-          An Android app I built on my own for tracking and sharing sky and weather observations.
-          Users can create posts about the sky, store them in a local database, and receive daily notifications.
-          The app includes a content reporting system, daily reminder notifications, multi-language support,
-          social sharing feature ("Another Sky"), and a premium subscription model. This project taught me
-          how to use Room Database for local storage and WorkManager for background tasks.
-        </p>
-        <div class="screenshot-gallery">
-          <div class="screenshot">
-            <img src="images/todayssky-splash.jpg" alt="Today's Sky - Splash Screen">
-            <p>Splash Screen</p>
-          </div>
-          <div class="screenshot">
-            <img src="images/todayssky-calendar.jpg" alt="Today's Sky - Calendar View">
-            <p>Calendar View</p>
-          </div>
-          <div class="screenshot">
-            <img src="images/todayssky-datail.jpg" alt="Today's Sky - Post Detail">
-            <p>Post Detail</p>
-          </div>
-          <div class="screenshot">
-            <img src="images/todayssky-settings.jpg" alt="Today's Sky - Settings">
-            <p>Settings</p>
-          </div>
+      <p>
+        An Android app I built entirely on my own for tracking and sharing sky and weather observations.
+        Users can take a photo of the sky each day and save it as a diary entry with a personal comment.
+        The app features a beautiful calendar view, daily reminder notifications, multi-language support,
+        a social sharing feature called "Another Sky" where users can see other people's sky photos,
+        and a premium subscription model with extra features like editing comments and posting to past dates.
+      </p>
+      <p>
+        This is the project I am most proud of because I designed, developed, and planned the monetization
+        all by myself. It taught me how to use Room Database for local storage, WorkManager for background
+        notifications, and how to think about real users and product design.
+      </p>
+      <div class="featured-screenshots">
+        <div class="screenshot">
+          <img src="images/todayssky-splash.jpg" alt="Today's Sky - Splash Screen">
+          <p>Splash Screen</p>
+        </div>
+        <div class="screenshot">
+          <img src="images/todayssky-calendar.jpg" alt="Today's Sky - Calendar View">
+          <p>Calendar View</p>
+        </div>
+        <div class="screenshot">
+          <img src="images/todayssky-datail.jpg" alt="Today's Sky - Post Detail">
+          <p>Post Detail</p>
+        </div>
+        <div class="screenshot">
+          <img src="images/todayssky-settings.jpg" alt="Today's Sky - Settings">
+          <p>Settings</p>
         </div>
       </div>
+    </div>
 
-      <div class="work-sample">
-        <h4>Project 4: HabitTracker iOS App (In Progress)</h4>
-        <p class="tech-tag">Technologies: Swift, SwiftUI</p>
+    <!-- Other Academic Work Samples -->
+    <h3 style="font-size: 20px; color: #1e293b; margin-bottom: 20px;">Other Academic Work Samples</h3>
+
+    <div class="project-grid">
+      <div class="project-card">
+        <h4>Real-Time Chat Application</h4>
+        <div class="tech-tags">
+          <span class="tag-green">Node.js</span>
+          <span class="tag-green">Express.js</span>
+          <span class="tag-blue">Socket.io</span>
+          <span class="tag-purple">MongoDB</span>
+          <span class="tag-gray">Bootstrap</span>
+        </div>
         <p>
-          An iOS application for tracking daily habits with progress statistics and visualizations.
-          It has a "Today" view for checking off habits, a statistics page with progress rings, and
-          settings for customization. Data is saved locally using UserDefaults. This is my first iOS project
-          and I am still actively working on it. I am learning Swift and SwiftUI through this project.
+          A real-time chat app with group chat rooms and private one-on-one messaging.
+          Users can sign up, join rooms, and send messages. Chat history is saved in MongoDB.
+          I learned how to use WebSockets for real-time communication.
         </p>
       </div>
 
-      <div class="work-sample">
-        <h4>Project 5: Superstore Management App Backend (Capstone)</h4>
-        <p class="tech-tag">Technologies: Java, Spring Boot, PostgreSQL, JWT, Spring Security</p>
+      <div class="project-card">
+        <h4>Restaurant Search App</h4>
+        <div class="tech-tags">
+          <span class="tag-blue">Kotlin</span>
+          <span class="tag-blue">Jetpack Compose</span>
+          <span class="tag-orange">Google Maps API</span>
+          <span class="tag-purple">Material 3</span>
+        </div>
         <p>
-          A REST API backend for managing work shifts, shift swaps, and open shift offers.
-          It includes user authentication with JWT tokens, admin functionality, and a full shift swap request system.
-          This is my capstone project. See the Capstone Project section below for more details.
+          An Android app for searching restaurants by name or food tags and viewing them on Google Maps.
+          Shows ratings, reviews, and details. A group project where I learned Google Maps API
+          and modern Android UI with Jetpack Compose.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h4>HabitTracker iOS App <span class="status-badge badge-progress">In Progress</span></h4>
+        <div class="tech-tags">
+          <span class="tag-orange">Swift</span>
+          <span class="tag-orange">SwiftUI</span>
+        </div>
+        <p>
+          An iOS app for tracking daily habits with progress statistics and ring visualizations.
+          Features a "Today" view for checking off habits and settings for customization.
+          My first iOS project — currently learning Swift and SwiftUI through this.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h4>Superstore Management App <span class="status-badge badge-capstone">Capstone</span></h4>
+        <div class="tech-tags">
+          <span class="tag-blue">Java</span>
+          <span class="tag-green">Spring Boot</span>
+          <span class="tag-purple">PostgreSQL</span>
+          <span class="tag-orange">JWT</span>
+          <span class="tag-gray">Spring Security</span>
+        </div>
+        <p>
+          A REST API backend for managing work shifts, shift swaps, and open shift offers
+          with JWT authentication and admin functionality. See Capstone section below for full details.
         </p>
       </div>
     </div>
