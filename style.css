@@ -223,6 +223,34 @@ blockquote {
   padding-bottom: 0;
 }
 
+/* Screenshot Gallery */
+.screenshot-gallery {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.screenshot {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.screenshot img {
+  width: 160px;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.screenshot p {
+  font-size: 12px;
+  color: #888;
+  margin-top: 6px;
+}
+
 /* Placeholder Image */
 .placeholder-image {
   background-color: #e9ecef;

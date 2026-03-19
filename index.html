@@ -132,7 +132,9 @@
 
     <div class="card">
       <h3>Academic Awards</h3>
-      <p>[Add any academic awards here, or remove this section if not applicable.]</p>
+      <ul>
+        <li><strong>Dean's Honour List</strong> — Winter 2024 — George Brown College</li>
+      </ul>
     </div>
   </section>
 
@@ -172,9 +174,28 @@
         <p>
           An Android app I built on my own for tracking and sharing sky and weather observations.
           Users can create posts about the sky, store them in a local database, and receive daily notifications.
-          The app includes a content reporting system and quota management. This project taught me how to use
-          Room Database for local storage and WorkManager for background tasks.
+          The app includes a content reporting system, daily reminder notifications, multi-language support,
+          social sharing feature ("Another Sky"), and a premium subscription model. This project taught me
+          how to use Room Database for local storage and WorkManager for background tasks.
         </p>
+        <div class="screenshot-gallery">
+          <div class="screenshot">
+            <img src="images/todayssky-splash.png" alt="Today's Sky - Splash Screen">
+            <p>Splash Screen</p>
+          </div>
+          <div class="screenshot">
+            <img src="images/todayssky-calendar.png" alt="Today's Sky - Calendar View">
+            <p>Calendar View</p>
+          </div>
+          <div class="screenshot">
+            <img src="images/todayssky-detail.png" alt="Today's Sky - Post Detail">
+            <p>Post Detail</p>
+          </div>
+          <div class="screenshot">
+            <img src="images/todayssky-settings.png" alt="Today's Sky - Settings">
+            <p>Settings</p>
+          </div>
+        </div>
       </div>
 
       <div class="work-sample">
@@ -189,7 +210,7 @@
       </div>
 
       <div class="work-sample">
-        <h4>Project 5: ShiftFlow Backend (Capstone)</h4>
+        <h4>Project 5: Superstore Management App Backend (Capstone)</h4>
         <p class="tech-tag">Technologies: Java, Spring Boot, PostgreSQL, JWT, Spring Security</p>
         <p>
           A REST API backend for managing work shifts, shift swaps, and open shift offers.
@@ -206,7 +227,7 @@
       <div class="capstone-section">
         <h4>Project Summary</h4>
         <p>
-          ShiftFlow is a backend system for managing work shifts in workplaces like restaurants, retail stores,
+          Superstore Management App is a backend system for managing work shifts in workplaces like restaurants, retail stores,
           or warehouses. It allows employees to view their shifts, request shift swaps with coworkers,
           and pick up open shifts. Managers can create and assign shifts, approve swap requests,
           and manage employee accounts. The system solves the common problem of messy shift scheduling
@@ -217,9 +238,9 @@
       <div class="capstone-section">
         <h4>Project Vision</h4>
         <p>
-          The vision of ShiftFlow is to make shift management simple and digital. Many small businesses
+          The vision of Superstore Management App is to make shift management simple and digital. Many small businesses
           still use paper schedules or group chats to manage shifts, which causes confusion and mistakes.
-          ShiftFlow aims to provide a reliable backend that handles authentication, shift data, and swap logic
+          Superstore Management App aims to provide a reliable backend that handles authentication, shift data, and swap logic
           so that developers can build a user-friendly app on top of it. The end users who will benefit
           are both employees (who want flexibility) and managers (who need control over schedules).
         </p>
@@ -263,7 +284,7 @@
       <div class="capstone-section">
         <h4>Wireframes / Mockups</h4>
         <p>
-          Since ShiftFlow is a backend-only project, there are no UI wireframes. However, the API is designed
+          Since Superstore Management App is a backend-only project, there are no UI wireframes. However, the API is designed
           to support any frontend client. The API endpoints are organized by resource (users, shifts, swaps, offers)
           and follow standard REST patterns (GET, POST, PUT, DELETE).
         </p>
@@ -283,7 +304,7 @@
       <div class="capstone-section">
         <h4>System Implementation</h4>
         <p>
-          ShiftFlow is built with Java 17 and Spring Boot 4.0.2. The backend uses Spring Security with JWT
+          Superstore Management App is built with Java 17 and Spring Boot 4.0.2. The backend uses Spring Security with JWT
           tokens for authentication. The database is PostgreSQL, connected through Spring Data JPA.
           The project follows a layered architecture with controllers (handle HTTP requests),
           services (business logic), and repositories (database access). Key features include
