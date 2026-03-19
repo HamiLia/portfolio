@@ -1,0 +1,275 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Navigation */
+nav {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+}
+
+.nav-links a:hover {
+  color: #000;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 120px 20px 60px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #eee;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.intro {
+  font-size: 15px;
+  color: #777;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Sections */
+.section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.section-gray {
+  background-color: #f8f9fa;
+  max-width: 100%;
+}
+
+.section-gray > h2,
+.section-gray > .card {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section h2 {
+  font-size: 26px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #333;
+  color: #222;
+}
+
+/* Cards */
+.card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 25px 30px;
+  margin-bottom: 20px;
+}
+
+.section-gray .card {
+  background-color: #fff;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.card h4 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+.card p {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #555;
+}
+
+.card ul {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.card li {
+  margin-bottom: 6px;
+  font-size: 15px;
+  color: #555;
+}
+
+/* Resume Sections */
+.resume-section {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.resume-section:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Cover Letter */
+.cover-letter p {
+  margin-bottom: 12px;
+}
+
+/* Blockquote for Career Goal */
+blockquote {
+  border-left: 3px solid #999;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  font-style: italic;
+  color: #666;
+  background-color: #fafafa;
+}
+
+/* Academic Credentials */
+.credential-item {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.credential-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Work Samples */
+.work-sample {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.work-sample:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.tech-tag {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+/* Capstone Section */
+.capstone-section {
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.capstone-section:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Placeholder Image */
+.placeholder-image {
+  background-color: #e9ecef;
+  border: 2px dashed #ccc;
+  padding: 40px;
+  text-align: center;
+  color: #999;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #333;
+  color: #ccc;
+  font-size: 14px;
+}
+
+footer p {
+  margin-bottom: 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-links {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .section {
+    padding: 40px 15px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+}
